@@ -82,7 +82,7 @@ gc users.txt | foreach-object {
 
         $oFolder.Update()
 
-        Write-host (Get-Date) ": Retention policy stamped!"
+        Write-host (Get-Date) ": Policy Tag Assigned!"
     }    
     $ews.ImpersonatedUserId = $null
 	}    
